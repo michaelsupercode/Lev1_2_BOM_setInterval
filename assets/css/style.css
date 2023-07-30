@@ -5,11 +5,19 @@
 }
 
 body {
+    display: grid;
+    justify-content: center;
     background-color: #ffad87
 }
 
+.style {
+    display: grid;
+    justify-content: center;
+    margin: 5vh;
+}
 .zeit {
     background-color: #fa877f;
+    text-align: center;
     width: 100px;
     margin: 5px;
     color: #dedef0;
@@ -24,4 +32,10 @@ button {
     width: 50px;
     margin: 5px 25px;
     border-radius: 5px;
+}
+
+h6 {
+margin: 5vh;
+text-align: center;
+color: white;
 }
